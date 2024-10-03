@@ -11,16 +11,16 @@ class Película:
 #Notas: Atributos privados y 
 #definir un método para acceder al nombre de la película (getter).
     @property
-    def título(self): #Método para título
+    def título(self): #Getter para título
         return self.__título
     
     @property
-    def director (self): #Método para director
+    def director (self): #Getter para director
         return self.__director
     
     @property
     def año(self):
-        return self.__año #método para año
+        return self.__año #Getter para año
 
     #Método para que se vea la información de la película en linea o cadena   
     def __str__(self):
