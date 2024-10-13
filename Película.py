@@ -4,9 +4,9 @@
 
 class Película:
     def __init__(self, título, director, año):
-        self.título=título  #Atributo título
-        self.director=director #Atributo director
-        self.año=año  #Atributo año
+        self.__título=título  #Atributo título
+        self.__director=director #Atributo director
+        self.__año=año  #Atributo año
 
 #Notas: Atributos privados y 
 #definir un método para acceder al nombre de la película (getter).
